@@ -31,7 +31,7 @@
         <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
       </local>
     </RunParams>
-    <Units Count="5">
+    <Units Count="6">
       <Unit0>
         <Filename Value="solidworks.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -44,18 +44,19 @@
       <Unit2>
         <Filename Value="fpsutils.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="fpsutils"/>
       </Unit2>
       <Unit3>
         <Filename Value="fpstypes.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="fpstypes"/>
       </Unit3>
       <Unit4>
         <Filename Value="fpsstrings.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="fpsstrings"/>
       </Unit4>
+      <Unit5>
+        <Filename Value="dibimagereader.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit5>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

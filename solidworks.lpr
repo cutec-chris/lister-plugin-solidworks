@@ -6,7 +6,7 @@ library solidworks;
 uses
   Classes,
   sysutils,
-  WLXPlugin,fpolestorage, fpsutils, fpstypes, fpsstrings,
+  WLXPlugin,fpolebasic, fpsutils, fpstypes, fpsstrings, dibimagereader,
   FPimage,FPWritePNG;
 
 procedure ListGetDetectString(DetectString:pchar;maxlen:integer); dcpcall;
@@ -20,7 +20,9 @@ var
   MemStream: TMemoryStream;
   OLEStorage: TOLEStorage;
   OLEDocument : TOLEDocument;
-  aPreview: TFileStream;
+  DataSize : DWord;
+  aImage: TFPMemoryImage;
+  aHandler: TLazReaderDIB;
 begin
   MemStream := TMemoryStream.Create;
   OLEStorage := TOLEStorage.Create;
@@ -28,9 +30,12 @@ begin
     // Only one stream is necessary for any number of worksheets
     OLEDocument.Stream := MemStream;
     OLEStorage.ReadOLEFile(FileToLoad, OLEDocument,'Preview');
-    aPreview := TFileStream.Create(OutputPath+'thumb.png',fmCreate);
-    aPreview.CopyFrom(MemStream,0);
-    aPreview.Free;
+    MemStream.Position:=0;
+    MemStream.Read(DataSize,sizeof(DataSize));
+    aImage := TFPMemoryImage.create(0,0);
+    aHandler := TLazReaderDIB.Create;
+    aImage.LoadFromStream(MemStream,aHandler);
+    aImage.SaveToFile(OutputPath+'thumb.png');
     Result := PChar(OutputPath+'thumb.png');
   finally
     OLEStorage.Free;

@@ -72,6 +72,7 @@ type
     FUseShortSectors: Boolean;
     FNumSATSectors, FNumStreamSectors: Cardinal;
     FNumStreamShortSectors: Cardinal;
+    FActSector: Cardinal;
     { Writer Helper routines }
     procedure WriteOLEHeader(AStream: TStream);
     procedure WriteSectorAllocationTable(AStream: TStream);
@@ -570,6 +571,11 @@ begin
         EntryFirstSecID, EntryStreamSize);
     end;
 
+  // FReadingStreamSize is filled by ReadDirectoryStream
+  FUseShortSectors := FReadingStreamSize < INT_OLE_MIN_SIZE_FOR_STANDARD_STREAMS;
+
+  FActSector := EntryFirstSecID;
+
   FReadingStreamSize := EntryStreamSize;
 end;
 
@@ -797,21 +803,13 @@ begin
     AFileStream.Seek(CurrentSectorPos, soFromBeginning);
     ReadDirectoryStream(AFileStream,AStreamName);
 
-    // FReadingStreamSize is filled by ReadDirectoryStream
-    FUseShortSectors := FReadingStreamSize < INT_OLE_MIN_SIZE_FOR_STANDARD_STREAMS;
-
-    CurrentSectorPos := $600;
+    CurrentSectorPos := $200*FActSector;
 
     // Record 2, the Short SAT, if exists
     if FUseShortSectors then
-    begin
-      AFileStream.Seek(CurrentSectorPos, soFromBeginning);
-      ReadShortSectorAllocationTable(AFileStream);
-      CurrentSectorPos := $800;
-    end
+      CurrentSectorPos := INT_OLE_SHORT_SECTOR_SIZE*FActSector
     else
-      CurrentSectorPos := $600;
-
+      CurrentSectorPos := INT_OLE_SECTOR_SIZE*FActSector;
     // Records 3 and on (or 2 and on without Short Sectors), the user data
     AFileStream.Seek(CurrentSectorPos, soFromBeginning);
     ReadUserStream(FOLEDocument.Stream, AFileStream);
