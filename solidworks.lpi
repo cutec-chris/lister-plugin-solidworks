@@ -31,23 +31,22 @@
         <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
       </local>
     </RunParams>
-    <Units Count="2">
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="laz_fpspreadsheet"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="1">
       <Unit0>
         <Filename Value="solidworks.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="solidworks"/>
       </Unit0>
-      <Unit1>
-        <Filename Value="../dwgfile/dibimagereader.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="DIBImageReader"/>
-      </Unit1>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
     <Version Value="11"/>
     <Target>
-      <Filename Value="../../../output/$(TargetCPU)-$(TargetOS)/plugins/solidworks" ApplyConventions="False"/>
+      <Filename Value="../../../output/$(TargetCPU)-$(TargetOS)/plugins/solidworks.wlx" ApplyConventions="False"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="../../../../sdk"/>

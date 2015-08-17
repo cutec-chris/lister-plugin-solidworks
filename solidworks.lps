@@ -2,21 +2,20 @@
 <CONFIG>
   <ProjectSession>
     <Version Value="9"/>
-    <Units Count="25">
+    <Units Count="26">
       <Unit0>
         <Filename Value="solidworks.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="solidworks"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos Y="59"/>
+        <TopLine Value="14"/>
+        <CursorPos X="38" Y="29"/>
         <UsageCount Value="43"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="../dwgfile/dibimagereader.pas"/>
-        <IsPartOfProject Value="True"/>
         <UnitName Value="DIBImageReader"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="2"/>
         <TopLine Value="803"/>
         <CursorPos X="5" Y="822"/>
         <UsageCount Value="20"/>
@@ -25,7 +24,7 @@
       <Unit2>
         <Filename Value="../oofile/wlxplugin.pas"/>
         <UnitName Value="WLXPlugin"/>
-        <EditorIndex Value="6"/>
+        <EditorIndex Value="4"/>
         <CursorPos X="71" Y="91"/>
         <UsageCount Value="22"/>
         <Loaded Value="True"/>
@@ -106,33 +105,27 @@
       </Unit14>
       <Unit15>
         <Filename Value="../../components/prichedit/oodocument.pas"/>
-        <UnitName Value="oodocument"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="52"/>
         <CursorPos X="10" Y="118"/>
         <UsageCount Value="11"/>
-        <Loaded Value="True"/>
       </Unit15>
       <Unit16>
         <Filename Value="../../components/prichedit/fprichdocument.pas"/>
-        <UnitName Value="fprichdocument"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="-1"/>
         <UsageCount Value="11"/>
-        <Loaded Value="True"/>
       </Unit16>
       <Unit17>
         <Filename Value="../../components/prichedit/richdocument.pas"/>
-        <UnitName Value="richdocument"/>
-        <EditorIndex Value="5"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="24"/>
         <CursorPos X="3" Y="54"/>
         <UsageCount Value="11"/>
-        <Loaded Value="True"/>
       </Unit17>
       <Unit18>
         <Filename Value="../dwgfile/dwgPreview.pas"/>
         <UnitName Value="DwgPreview"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="3"/>
         <CursorPos X="37" Y="76"/>
         <UsageCount Value="11"/>
         <Loaded Value="True"/>
@@ -178,11 +171,49 @@
         <CursorPos Y="1294"/>
         <UsageCount Value="10"/>
       </Unit24>
+      <Unit25>
+        <Filename Value="../../components/fpspreadsheet/fpolestorage.pas"/>
+        <UnitName Value="fpolestorage"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="82"/>
+        <CursorPos X="3" Y="61"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit25>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="7" HistoryIndex="6">
+      <Position1>
+        <Filename Value="solidworks.lpr"/>
+        <Caret Line="28"/>
+      </Position1>
+      <Position2>
+        <Filename Value="solidworks.lpr"/>
+        <Caret Line="20" Column="3" TopLine="6"/>
+      </Position2>
+      <Position3>
+        <Filename Value="solidworks.lpr"/>
+        <Caret Line="37" Column="6" TopLine="17"/>
+      </Position3>
+      <Position4>
+        <Filename Value="solidworks.lpr"/>
+        <Caret Line="24" Column="8" TopLine="12"/>
+      </Position4>
+      <Position5>
+        <Filename Value="solidworks.lpr"/>
+        <Caret Line="21" Column="20" TopLine="6"/>
+      </Position5>
+      <Position6>
+        <Filename Value="solidworks.lpr"/>
+        <Caret Line="28" Column="49" TopLine="19"/>
+      </Position6>
+      <Position7>
+        <Filename Value="solidworks.lpr"/>
+        <Caret Line="23" TopLine="11"/>
+      </Position7>
+    </JumpHistory>
   </ProjectSession>
   <Debugging>
-    <BreakPoints Count="1">
+    <BreakPoints Count="2">
       <Item1>
         <Kind Value="bpkSource"/>
         <WatchScope Value="wpsLocal"/>
@@ -190,6 +221,13 @@
         <Source Value="../dwgfile/dwgPreview.pas"/>
         <Line Value="30"/>
       </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="solidworks.lpr"/>
+        <Line Value="29"/>
+      </Item2>
     </BreakPoints>
   </Debugging>
 </CONFIG>
