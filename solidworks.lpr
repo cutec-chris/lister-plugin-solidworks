@@ -6,12 +6,12 @@ library solidworks;
 uses
   Classes,
   sysutils,
-  WLXPlugin, laz_fpspreadsheet,fpolestorage,
+  WLXPlugin,fpolestorage, fpsutils, fpstypes, fpsstrings,
   FPimage,FPWritePNG;
 
 procedure ListGetDetectString(DetectString:pchar;maxlen:integer); dcpcall;
 begin
-  StrCopy(DetectString, 'EXT="SLDPRT"|EXT="SLDASM"');
+  StrCopy(DetectString, 'EXT="SLDPRT"|EXT="SLDASM"|EXT="EASM"');
 end;
 
 function ListGetPreviewBitmapFile(FileToLoad:pchar;OutputPath:pchar;width,height:integer;
@@ -20,22 +20,18 @@ var
   MemStream: TMemoryStream;
   OLEStorage: TOLEStorage;
   OLEDocument : TOLEDocument;
+  aPreview: TFileStream;
 begin
   MemStream := TMemoryStream.Create;
   OLEStorage := TOLEStorage.Create;
   try
     // Only one stream is necessary for any number of worksheets
     OLEDocument.Stream := MemStream;
-    OLEStorage.ReadOLEFile(FileToLoad, OLEDocument,'WordDocument');
-    {
-    if MemStream.Seek($800,soFromBeginning) = $800 then
-      begin
-        Setlength(aContent,MemStream.Size-$800);
-        MemStream.Read(aContent[1],MemStream.Size-$800);
-        aContent2 := ConvertEncoding(aContent,EncodingUCS2LE,EncodingUTF8);
-        aText:=StripUnwantedChar(aContent2);
-      end;
-    }
+    OLEStorage.ReadOLEFile(FileToLoad, OLEDocument,'Preview');
+    aPreview := TFileStream.Create(OutputPath+'thumb.png',fmCreate);
+    aPreview.CopyFrom(MemStream,0);
+    aPreview.Free;
+    Result := PChar(OutputPath+'thumb.png');
   finally
     OLEStorage.Free;
   end;

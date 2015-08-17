@@ -27,20 +27,35 @@
     <RunParams>
       <local>
         <FormatVersion Value="1"/>
-        <HostApplicationFilename Value="C:/Prometheus/TCS/paradoxtest1/promet/output/i386-win32/wfxtester.exe"/>
+        <HostApplicationFilename Value="/media/Daten/Source/promet/promet/output/x86_64-linux/wfxtester"/>
         <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
       </local>
     </RunParams>
-    <RequiredPackages Count="1">
-      <Item1>
-        <PackageName Value="laz_fpspreadsheet"/>
-      </Item1>
-    </RequiredPackages>
-    <Units Count="1">
+    <Units Count="5">
       <Unit0>
         <Filename Value="solidworks.lpr"/>
         <IsPartOfProject Value="True"/>
       </Unit0>
+      <Unit1>
+        <Filename Value="fpolestorage.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="fpolestorage"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="fpsutils.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="fpsutils"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="fpstypes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="fpstypes"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="fpsstrings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="fpsstrings"/>
+      </Unit4>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -67,9 +82,6 @@ end;"/>
       </SyntaxOptions>
     </Parsing>
     <Linking>
-      <Debugging>
-        <UseExternalDbgSyms Value="True"/>
-      </Debugging>
       <LinkSmart Value="True"/>
       <Options>
         <PassLinkerOptions Value="True"/>

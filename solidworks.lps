@@ -2,214 +2,356 @@
 <CONFIG>
   <ProjectSession>
     <Version Value="9"/>
-    <Units Count="26">
+    <Units Count="32">
       <Unit0>
         <Filename Value="solidworks.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="14"/>
-        <CursorPos X="38" Y="29"/>
-        <UsageCount Value="43"/>
+        <TopLine Value="16"/>
+        <CursorPos Y="38"/>
+        <UsageCount Value="44"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
+        <Filename Value="fpolestorage.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="fpsutils.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="587"/>
+        <CursorPos X="47" Y="603"/>
+        <UsageCount Value="20"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="fpstypes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="fpsstrings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit4>
+      <Unit5>
         <Filename Value="../dwgfile/dibimagereader.pas"/>
-        <UnitName Value="DIBImageReader"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="803"/>
         <CursorPos X="5" Y="822"/>
         <UsageCount Value="20"/>
-        <Loaded Value="True"/>
-      </Unit1>
-      <Unit2>
+      </Unit5>
+      <Unit6>
         <Filename Value="../oofile/wlxplugin.pas"/>
         <UnitName Value="WLXPlugin"/>
         <EditorIndex Value="4"/>
+        <TopLine Value="61"/>
         <CursorPos X="71" Y="91"/>
         <UsageCount Value="22"/>
         <Loaded Value="True"/>
-      </Unit2>
-      <Unit3>
+      </Unit6>
+      <Unit7>
         <Filename Value="../DWGPreview/dwgThumbnail.pas"/>
         <EditorIndex Value="-1"/>
         <UsageCount Value="12"/>
-      </Unit3>
-      <Unit4>
+      </Unit7>
+      <Unit8>
         <Filename Value="../DWGPreview/listplug.pas"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="16"/>
         <UsageCount Value="13"/>
-      </Unit4>
-      <Unit5>
+      </Unit8>
+      <Unit9>
         <Filename Value="../DWGPreview/uMain.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="134"/>
         <CursorPos X="43" Y="80"/>
         <UsageCount Value="13"/>
-      </Unit5>
-      <Unit6>
+      </Unit9>
+      <Unit10>
         <Filename Value="../../../../../../fpc/trunk/rtl/wince/messages.pp"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="5" Y="11"/>
         <UsageCount Value="10"/>
-      </Unit6>
-      <Unit7>
+      </Unit10>
+      <Unit11>
         <Filename Value="../FileThumbnails/FileDesc/ContPlug.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="37"/>
         <UsageCount Value="9"/>
-      </Unit7>
-      <Unit8>
+      </Unit11>
+      <Unit12>
         <Filename Value="../FileThumbnails/FileDesc/DEPHeader.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="94"/>
         <CursorPos X="20"/>
         <UsageCount Value="9"/>
-      </Unit8>
-      <Unit9>
+      </Unit12>
+      <Unit13>
         <Filename Value="../redhtml/Src/HttpAsyncId10.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="58"/>
         <UsageCount Value="9"/>
-      </Unit9>
-      <Unit10>
+      </Unit13>
+      <Unit14>
         <Filename Value="../redhtml/Src/HtmlThreads.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="66"/>
         <UsageCount Value="9"/>
-      </Unit10>
-      <Unit11>
+      </Unit14>
+      <Unit15>
         <Filename Value="../TorrentLister/TorrentFile.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="353"/>
         <UsageCount Value="13"/>
-      </Unit11>
-      <Unit12>
+      </Unit15>
+      <Unit16>
         <Filename Value="../TorrentLister/install/readme.txt"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="43" Y="14"/>
         <UsageCount Value="13"/>
         <DefaultSyntaxHighlighter Value="None"/>
-      </Unit12>
-      <Unit13>
+      </Unit16>
+      <Unit17>
         <Filename Value="../oofile/calling.inc"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="17" Y="3"/>
         <UsageCount Value="12"/>
-      </Unit13>
-      <Unit14>
+      </Unit17>
+      <Unit18>
         <Filename Value="../TorrentLister/listU.pas"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="19" Y="238"/>
         <UsageCount Value="10"/>
-      </Unit14>
-      <Unit15>
+      </Unit18>
+      <Unit19>
         <Filename Value="../../components/prichedit/oodocument.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="52"/>
         <CursorPos X="10" Y="118"/>
         <UsageCount Value="11"/>
-      </Unit15>
-      <Unit16>
+      </Unit19>
+      <Unit20>
         <Filename Value="../../components/prichedit/fprichdocument.pas"/>
         <EditorIndex Value="-1"/>
         <UsageCount Value="11"/>
-      </Unit16>
-      <Unit17>
+      </Unit20>
+      <Unit21>
         <Filename Value="../../components/prichedit/richdocument.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="24"/>
         <CursorPos X="3" Y="54"/>
         <UsageCount Value="11"/>
-      </Unit17>
-      <Unit18>
+      </Unit21>
+      <Unit22>
         <Filename Value="../dwgfile/dwgPreview.pas"/>
-        <UnitName Value="DwgPreview"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="37" Y="76"/>
         <UsageCount Value="11"/>
-        <Loaded Value="True"/>
-      </Unit18>
-      <Unit19>
+      </Unit22>
+      <Unit23>
         <Filename Value="../../../../../../../Programme/lazarus140/fpc/2.6.4/source/packages/fcl-image/src/fpreadbmp.pp"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="178"/>
         <CursorPos X="23" Y="134"/>
         <UsageCount Value="10"/>
-      </Unit19>
-      <Unit20>
+      </Unit23>
+      <Unit24>
         <Filename Value="../../../../../../../Programme/lazarus/lcl/intfgraphics.pas"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="19" Y="5643"/>
         <UsageCount Value="10"/>
-      </Unit20>
-      <Unit21>
+      </Unit24>
+      <Unit25>
         <Filename Value="../../../../../../../Programme/lazarus140/fpc/2.6.4/source/packages/fcl-image/src/bmpcomn.pp"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="59"/>
         <CursorPos X="4" Y="78"/>
         <UsageCount Value="10"/>
-      </Unit21>
-      <Unit22>
+      </Unit25>
+      <Unit26>
         <Filename Value="../../../../../../../Programme/lazarus140/fpc/2.6.4/source/packages/fcl-image/src/fpimage.pp"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="183"/>
         <CursorPos X="3" Y="196"/>
         <UsageCount Value="10"/>
-      </Unit22>
-      <Unit23>
+      </Unit26>
+      <Unit27>
         <Filename Value="../../../../../../../Programme/lazarus/lcl/graphtype.pp"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="156"/>
         <CursorPos Y="192"/>
         <UsageCount Value="10"/>
-      </Unit23>
-      <Unit24>
+      </Unit27>
+      <Unit28>
         <Filename Value="../../../../../../../Programme/lazarus/lcl/lcltype.pp"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1271"/>
         <CursorPos Y="1294"/>
         <UsageCount Value="10"/>
-      </Unit24>
-      <Unit25>
+      </Unit28>
+      <Unit29>
         <Filename Value="../../components/fpspreadsheet/fpolestorage.pas"/>
         <UnitName Value="fpolestorage"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="82"/>
-        <CursorPos X="3" Y="61"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="37"/>
+        <CursorPos Y="782"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
-      </Unit25>
+      </Unit29>
+      <Unit30>
+        <Filename Value="../../base/dbintfs/uwlxmodule.pas"/>
+        <UnitName Value="uWlxModule"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="450"/>
+        <CursorPos Y="465"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="../plugintester/umain.pas"/>
+        <UnitName Value="umain"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="84"/>
+        <CursorPos X="28" Y="104"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit31>
     </Units>
-    <JumpHistory Count="7" HistoryIndex="6">
+    <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
-        <Filename Value="solidworks.lpr"/>
-        <Caret Line="28"/>
+        <Filename Value="../../components/fpspreadsheet/fpolestorage.pas"/>
+        <Caret Line="568" TopLine="550"/>
       </Position1>
       <Position2>
-        <Filename Value="solidworks.lpr"/>
-        <Caret Line="20" Column="3" TopLine="6"/>
+        <Filename Value="../../components/fpspreadsheet/fpolestorage.pas"/>
+        <Caret Line="566" TopLine="550"/>
       </Position2>
       <Position3>
-        <Filename Value="solidworks.lpr"/>
-        <Caret Line="37" Column="6" TopLine="17"/>
+        <Filename Value="../../components/fpspreadsheet/fpolestorage.pas"/>
+        <Caret Line="568" TopLine="550"/>
       </Position3>
       <Position4>
         <Filename Value="solidworks.lpr"/>
-        <Caret Line="24" Column="8" TopLine="12"/>
+        <Caret Line="29" Column="60" TopLine="15"/>
       </Position4>
       <Position5>
         <Filename Value="solidworks.lpr"/>
-        <Caret Line="21" Column="20" TopLine="6"/>
+        <Caret Line="25" TopLine="15"/>
       </Position5>
       <Position6>
         <Filename Value="solidworks.lpr"/>
-        <Caret Line="28" Column="49" TopLine="19"/>
+        <Caret Line="26" TopLine="15"/>
       </Position6>
       <Position7>
         <Filename Value="solidworks.lpr"/>
-        <Caret Line="23" TopLine="11"/>
+        <Caret Line="28" TopLine="15"/>
       </Position7>
+      <Position8>
+        <Filename Value="solidworks.lpr"/>
+        <Caret Line="29" TopLine="15"/>
+      </Position8>
+      <Position9>
+        <Filename Value="../../components/fpspreadsheet/fpolestorage.pas"/>
+        <Caret Line="781" TopLine="766"/>
+      </Position9>
+      <Position10>
+        <Filename Value="solidworks.lpr"/>
+        <Caret Line="34" Column="44" TopLine="16"/>
+      </Position10>
+      <Position11>
+        <Filename Value="solidworks.lpr"/>
+        <Caret Line="26" TopLine="16"/>
+      </Position11>
+      <Position12>
+        <Filename Value="solidworks.lpr"/>
+        <Caret Line="27" TopLine="16"/>
+      </Position12>
+      <Position13>
+        <Filename Value="solidworks.lpr"/>
+        <Caret Line="29" TopLine="16"/>
+      </Position13>
+      <Position14>
+        <Filename Value="solidworks.lpr"/>
+        <Caret Line="30" TopLine="16"/>
+      </Position14>
+      <Position15>
+        <Filename Value="solidworks.lpr"/>
+        <Caret Line="34" Column="33" TopLine="16"/>
+      </Position15>
+      <Position16>
+        <Filename Value="solidworks.lpr"/>
+        <Caret Line="26" TopLine="16"/>
+      </Position16>
+      <Position17>
+        <Filename Value="solidworks.lpr"/>
+        <Caret Line="27" TopLine="16"/>
+      </Position17>
+      <Position18>
+        <Filename Value="solidworks.lpr"/>
+        <Caret Line="29" TopLine="16"/>
+      </Position18>
+      <Position19>
+        <Filename Value="solidworks.lpr"/>
+        <Caret Line="30" TopLine="16"/>
+      </Position19>
+      <Position20>
+        <Filename Value="solidworks.lpr"/>
+        <Caret Line="31" TopLine="16"/>
+      </Position20>
+      <Position21>
+        <Filename Value="solidworks.lpr"/>
+        <Caret Line="32" TopLine="16"/>
+      </Position21>
+      <Position22>
+        <Filename Value="solidworks.lpr"/>
+        <Caret Line="33" TopLine="16"/>
+      </Position22>
+      <Position23>
+        <Filename Value="solidworks.lpr"/>
+        <Caret Line="34" TopLine="16"/>
+      </Position23>
+      <Position24>
+        <Filename Value="solidworks.lpr"/>
+        <Caret Line="36" TopLine="16"/>
+      </Position24>
+      <Position25>
+        <Filename Value="solidworks.lpr"/>
+        <Caret Line="38" TopLine="16"/>
+      </Position25>
+      <Position26>
+        <Filename Value="../../base/dbintfs/uwlxmodule.pas"/>
+        <Caret Line="465" TopLine="450"/>
+      </Position26>
+      <Position27>
+        <Filename Value="../plugintester/umain.pas"/>
+        <Caret Line="97" TopLine="83"/>
+      </Position27>
+      <Position28>
+        <Filename Value="../plugintester/umain.pas"/>
+        <Caret Line="109" TopLine="85"/>
+      </Position28>
+      <Position29>
+        <Filename Value="../plugintester/umain.pas"/>
+        <Caret Line="114" TopLine="90"/>
+      </Position29>
+      <Position30>
+        <Filename Value="../plugintester/umain.pas"/>
+        <Caret Line="116" TopLine="92"/>
+      </Position30>
     </JumpHistory>
   </ProjectSession>
   <Debugging>
@@ -226,8 +368,13 @@
         <WatchScope Value="wpsLocal"/>
         <WatchKind Value="wpkWrite"/>
         <Source Value="solidworks.lpr"/>
-        <Line Value="29"/>
+        <Line Value="26"/>
       </Item2>
     </BreakPoints>
+    <Watches Count="1">
+      <Item1>
+        <Expression Value="EntryName"/>
+      </Item1>
+    </Watches>
   </Debugging>
 </CONFIG>
