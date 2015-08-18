@@ -39,7 +39,6 @@
       <Unit1>
         <Filename Value="fpolestorage.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="fpolestorage"/>
       </Unit1>
       <Unit2>
         <Filename Value="fpsutils.pas"/>
@@ -83,6 +82,9 @@ end;"/>
       </SyntaxOptions>
     </Parsing>
     <Linking>
+      <Debugging>
+        <UseExternalDbgSyms Value="True"/>
+      </Debugging>
       <LinkSmart Value="True"/>
       <Options>
         <PassLinkerOptions Value="True"/>

@@ -6,15 +6,14 @@
       <Unit0>
         <Filename Value="solidworks.lpr"/>
         <IsPartOfProject Value="True"/>
-        <TopLine Value="19"/>
-        <CursorPos X="54" Y="40"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="57" Y="9"/>
         <UsageCount Value="44"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="fpolestorage.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="fpolestorage"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="790"/>
         <CursorPos Y="808"/>
@@ -223,7 +222,6 @@
       <Unit31>
         <Filename Value="../../base/dbintfs/uwlxmodule.pas"/>
         <UnitName Value="uWlxModule"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <TopLine Value="450"/>
         <CursorPos Y="465"/>
@@ -252,7 +250,6 @@
       </Unit33>
       <Unit34>
         <Filename Value="../../components/fpspreadsheet/uvirtuallayer_ole.pas"/>
-        <UnitName Value="uvirtuallayer_ole"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="460"/>
         <CursorPos X="3" Y="74"/>
@@ -260,14 +257,12 @@
       </Unit34>
       <Unit35>
         <Filename Value="../../components/fpspreadsheet/fpolebasic.pas"/>
-        <UnitName Value="fpolebasic"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="10" Y="69"/>
         <UsageCount Value="10"/>
       </Unit35>
       <Unit36>
         <Filename Value="fpolebasic.pas"/>
-        <UnitName Value="fpolebasic"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="99"/>
         <CursorPos Y="123"/>
@@ -275,7 +270,6 @@
       </Unit36>
       <Unit37>
         <Filename Value="uvirtuallayer.pas"/>
-        <UnitName Value="uvirtuallayer"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="818"/>
         <CursorPos Y="833"/>
@@ -283,7 +277,6 @@
       </Unit37>
       <Unit38>
         <Filename Value="uvirtuallayer_stream.pas"/>
-        <UnitName Value="uvirtuallayer_stream"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="78"/>
         <CursorPos Y="100"/>
@@ -325,7 +318,7 @@
       </Position8>
       <Position9>
         <Filename Value="solidworks.lpr"/>
-        <Caret Line="40" TopLine="23"/>
+        <Caret Line="40" Column="54" TopLine="13"/>
       </Position9>
     </JumpHistory>
   </ProjectSession>
