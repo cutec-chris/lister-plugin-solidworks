@@ -13,7 +13,6 @@
       </Unit0>
       <Unit1>
         <Filename Value="fpolestorage.pas"/>
-        <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="790"/>
         <CursorPos Y="808"/>
@@ -170,41 +169,41 @@
         <UsageCount Value="11"/>
       </Unit23>
       <Unit24>
-        <Filename Value="../../../../../../../Programme/lazarus140/fpc/2.6.4/source/packages/fcl-image/src/fpreadbmp.pp"/>
+        <Filename Value="../../../../../../Programme/lazarus140/fpc/2.6.4/source/packages/fcl-image/src/fpreadbmp.pp"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="178"/>
         <CursorPos X="23" Y="134"/>
         <UsageCount Value="10"/>
       </Unit24>
       <Unit25>
-        <Filename Value="../../../../../../../Programme/lazarus/lcl/intfgraphics.pas"/>
+        <Filename Value="../../../../../../Programme/lazarus/lcl/intfgraphics.pas"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="19" Y="5643"/>
         <UsageCount Value="10"/>
       </Unit25>
       <Unit26>
-        <Filename Value="../../../../../../../Programme/lazarus140/fpc/2.6.4/source/packages/fcl-image/src/bmpcomn.pp"/>
+        <Filename Value="../../../../../../Programme/lazarus140/fpc/2.6.4/source/packages/fcl-image/src/bmpcomn.pp"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="59"/>
         <CursorPos X="4" Y="78"/>
         <UsageCount Value="10"/>
       </Unit26>
       <Unit27>
-        <Filename Value="../../../../../../../Programme/lazarus140/fpc/2.6.4/source/packages/fcl-image/src/fpimage.pp"/>
+        <Filename Value="../../../../../../Programme/lazarus140/fpc/2.6.4/source/packages/fcl-image/src/fpimage.pp"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="183"/>
         <CursorPos X="3" Y="196"/>
         <UsageCount Value="10"/>
       </Unit27>
       <Unit28>
-        <Filename Value="../../../../../../../Programme/lazarus/lcl/graphtype.pp"/>
+        <Filename Value="../../../../../../Programme/lazarus/lcl/graphtype.pp"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="156"/>
         <CursorPos Y="192"/>
         <UsageCount Value="10"/>
       </Unit28>
       <Unit29>
-        <Filename Value="../../../../../../../Programme/lazarus/lcl/lcltype.pp"/>
+        <Filename Value="../../../../../../Programme/lazarus/lcl/lcltype.pp"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1271"/>
         <CursorPos Y="1294"/>
@@ -212,7 +211,6 @@
       </Unit29>
       <Unit30>
         <Filename Value="../../components/fpspreadsheet/fpolestorage.pas"/>
-        <UnitName Value="fpolestorage"/>
         <EditorIndex Value="3"/>
         <TopLine Value="791"/>
         <CursorPos Y="782"/>
@@ -233,7 +231,6 @@
         <ComponentName Value="Form1"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="umain"/>
         <EditorIndex Value="2"/>
         <TopLine Value="65"/>
         <CursorPos X="6" Y="91"/>
