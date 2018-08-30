@@ -7,27 +7,30 @@
         <Filename Value="solidworks.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="57" Y="9"/>
+        <TopLine Value="2"/>
+        <CursorPos Y="27"/>
         <UsageCount Value="44"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
-        <Filename Value="fpolestorage.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="790"/>
-        <CursorPos Y="808"/>
-        <UsageCount Value="20"/>
-      </Unit1>
-      <Unit2>
         <Filename Value="fpsutils.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="587"/>
         <CursorPos X="47" Y="603"/>
         <UsageCount Value="20"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="fpstypes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
       </Unit2>
       <Unit3>
-        <Filename Value="fpstypes.pas"/>
+        <Filename Value="fpsstrings.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <WindowIndex Value="-1"/>
@@ -36,7 +39,7 @@
         <UsageCount Value="20"/>
       </Unit3>
       <Unit4>
-        <Filename Value="fpsstrings.pas"/>
+        <Filename Value="dibimagereader.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <WindowIndex Value="-1"/>
@@ -45,12 +48,10 @@
         <UsageCount Value="20"/>
       </Unit4>
       <Unit5>
-        <Filename Value="dibimagereader.pas"/>
-        <IsPartOfProject Value="True"/>
+        <Filename Value="fpolestorage.pas"/>
         <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
+        <TopLine Value="790"/>
+        <CursorPos Y="808"/>
         <UsageCount Value="20"/>
       </Unit5>
       <Unit6>

@@ -24,21 +24,24 @@ var
   aImage: TFPMemoryImage;
   aHandler: TLazReaderDIB;
 begin
-  MemStream := TMemoryStream.Create;
-  OLEStorage := TOLEStorage.Create;
   try
-    // Only one stream is necessary for any number of worksheets
-    OLEDocument.Stream := MemStream;
-    OLEStorage.ReadOLEFile(FileToLoad, OLEDocument,'Preview');
-    MemStream.Position:=0;
-    MemStream.Read(DataSize,sizeof(DataSize));
-    aImage := TFPMemoryImage.create(0,0);
-    aHandler := TLazReaderDIB.Create;
-    aImage.LoadFromStream(MemStream,aHandler);
-    aImage.SaveToFile(OutputPath+'thumb.png');
-    Result := PChar(OutputPath+'thumb.png');
-  finally
-    OLEStorage.Free;
+    MemStream := TMemoryStream.Create;
+    OLEStorage := TOLEStorage.Create;
+    try
+      // Only one stream is necessary for any number of worksheets
+      OLEDocument.Stream := MemStream;
+      OLEStorage.ReadOLEFile(FileToLoad, OLEDocument,'Preview');
+      MemStream.Position:=0;
+      MemStream.Read(DataSize,sizeof(DataSize));
+      aImage := TFPMemoryImage.create(0,0);
+      aHandler := TLazReaderDIB.Create;
+      aImage.LoadFromStream(MemStream,aHandler);
+      aImage.SaveToFile(OutputPath+'thumb.png');
+      Result := PChar(OutputPath+'thumb.png');
+    finally
+      OLEStorage.Free;
+    end;
+  except
   end;
 end;
 
